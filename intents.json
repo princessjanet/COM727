@@ -1,0 +1,150 @@
+{"intents":  [
+  {"tag":   "greetings",
+  "patterns":["hello","hey","hi", "good day", "greetings", "what's up?", "how far", "how are you doing?", "hey there",
+    "hi hi"],
+    "responses": ["Hello, welcome to Solent Electrical and electronics waste management services, how may I assist you today?",
+    "Solent Waste management services, how may I help"]
+  },
+  {
+    "tag": "enquiry",
+    "patterns": [
+      "I have phones to dispose, how do i go about it",
+      "please what are your services","what services do you render",
+      "is it possible to dispose my small appliances for cash?",
+      "i have items to dispose, what should i do",
+      "what are steps to follow to dispose my waste",
+      "i have electronics that i no longer use or need?",
+      "i have small appliances to recycle","I have a TV to dispose","i have smart phones to dispose"
+          ],
+    "responses": [
+      "We collect electrical and electronic wastes for a token",
+      "We help you dispose and recycle electrical and electronic wastes"
+    ]},
+
+  {"tag":   "payment",
+  "patterns":["how much will I get back","how much?","how will I get paid?","can i get money in return?","how much will i get",
+    "payment terms", "any incentive for giving out my waste?", "waste payment", "electronic waste payment",
+    "waste incentive" ,"can i get money in return?","Can I get a token for my laptop?","price for my device"
+    ],
+    "responses": ["You will be paid 2.5pounds*(the weight of your item)", "We will process your payment within 5mins before collection",
+      "Your payment will be processed shortly: 2.5 pounds(the weight of your item)",
+      "For the financial inquiries please call 0748456322 or email electric.plus@gmail.com"]
+  },
+
+  {"tag":   "Waste Collection",
+  "patterns":["how can i dispose it?","what is the next step","what should i do next","how do i proceed",
+     "is it possible to pick it up from my house?", "waste disposal location or point",
+    "how do you pickup","how do i drop it off",
+    "where can you collect it", "point of collection"
+    ],
+    "responses": ["Our pick up service runs 24/7, so give us your location and time of time of pickup",
+      "We run a 24/7 pickup service at no cost,please drop your address and pickup time",
+      "you can drop in our office at 60 Solent Avenue,Above bar or use our 24/7 pickup service at no cost"
+      ]
+  },
+  {"tag":   "pickup time",
+  "patterns": ["available at 2:30pm","9:am on Tuesday","time: 1pm at my address", "6am","7am","8am",
+    "9am","10am","10pm","11am","11pm","12am","12pm","1am","2am","2pm","3am","3pm","4am","4pm","5am","5pm","6pm","7pm",
+    "8pm","9pm","monday","Tuesday","wednesday","Thursday","Friday","Saturday","Sunday", "morning","afternoon",
+    "evening time","please ring the bell when you arrive", "please call me when you arrive","tonight", "tomorrow",
+    "today", "in a week", "a month", "days", "day"
+    ],
+
+    "responses": ["ok well noted,our pick up service shall be there to collect your waste, thank you for choosing us",
+      "Never worry, we shall pickup from your address at this time, thank you for choosing us",
+      "ok then see you as scheduled"
+      ]
+  },
+  {"tag":   "laptop and computer",
+  "patterns":["I want to recycle my laptop","I want to recycle my computer",
+    "Can your company help recycle my computer?", "I have a laptop to recycle", "my old computer needs recycling"],
+    "responses": ["Yes, we can help with recycling your laptop, let us know your location and pickup time"
+    ]
+  },
+   {"tag":   "phone",
+  "patterns": ["how much incentive do I get for giving an old phone for recycling",
+    "who can participate in the recycling", "what steps do I have to take to recycle my phone?",
+    "How many phones can I send in one shipment for recycling?",
+    "Can I send my other electronic and accessories along for recycle?",
+    "My battery is swollen, can I send it for recycle",
+    "my phone is not formatted and empty, how do you protect my data?"
+    ],
+
+    "responses": ["depends on the model, make and duration of use, call us on 00978**** for more info",
+      "any individual domicile in the UK can participate",
+      "you simply provide your phone information via our website form",
+      " We should get back to you in 24hrs", "you can send a maximum of three phones for recycling",
+      "I'm afraid we don't take phones with swollen batteries, they are hazardous. Dispose with municipal chemical waste",
+      "we guarantee you safety of your data when you dispose with us"
+      ]
+  },
+ {"tag":   "flat screen TVs and monitors",
+  "patterns":["My TV screen is broken", "My monitor screen is broken", "My TV screen just went blank",
+    "My monitor screen just went blank", "I think my flat TV television has expired", "I want to recycle it",
+    "I want to recycle my flat screen TV television", "I want to recycle my monitor", "Can I get a token for my flat screen TV?",
+    "Can your company please recycle my old monitor?", "I have a flat screen TV television to recycle",
+    "my old monitor needs to be recycled"],
+    "responses": ["Yes, we can help with the recycling your old TV television, smart Television",
+      "Yes, we can help with the recycling your old monitor"
+     ]
+
+},
+  {
+  "tag": "printer",
+  "patterns": [
+    "Can I get rid of my old printer using your service?",
+    "Is it possible to collect my damage printer tonight or tomorrow?",
+    "May I bring my out of order printer to your stock or office?",
+    "I have three not working printers how much I can get for them "
+  ],
+  "responses": [
+    "Yes, our service can help you to get rid of your old printers"
+   ]
+
+},
+  {
+  "tag": "Goodbye",
+  "patterns": [
+    "Thanks a lot", "weldone", "Alright then", "appreciate", "ok will be expecting you","see you soon then",
+    "will be waiting"],
+
+  "responses": [
+    "Bye for now, see more of you","Bye..." ]
+  },
+
+    {
+  "tag": "out of scope",
+  "patterns": [
+    "i want to my furniture",
+    "can you my wardrobe", "what of tables","chairs", "office desk","wardrobes",
+    "May I drop my mattress","shoes","clothes","gas","fridge","refrigerator","house holds","iron metal","lamps"
+
+  ],
+  "responses": [
+    "oh sorry this is beyond our scope of service, refer to our enquiry team for more detail" ,
+    "Oh sorry dear, we do not deal on that, only electrical and electronics appliances"
+    ]
+
+},
+    {
+  "tag": "final Bye",
+  "patterns": [
+    "bye", "thank you"
+
+  ],
+  "responses": [
+    "bye.. do enjoy the rest of your day"
+    ]},
+
+
+  {
+  "tag": "Time",
+  "patterns": [
+    "what time are you available for pickup"
+
+  ],
+  "responses": [
+    "just let us know pickup time and address, we shall be there for collection"
+    ]
+}
+]}
